@@ -1,0 +1,108 @@
+<!--客服-->
+<div class="cndns-right">
+   
+</div>
+<div class="online-service">
+	 <div class="cndns-right-meau meau-sev">
+        <a href="javascript:" class="cndns-right-btn">
+           <i class="fa fa-qq" style="font-size: 32px; color: #3bb4ff;"></i>
+        </a>
+        <div class="cndns-right-box ">
+            <div class="box-border">
+                <div class="sev-t">
+                    <span class="demo-icon"></span>
+                    <p>在线客服<i>服务时间：9:00-18:30</i></p>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="sev-b">
+                    <h4>选择下列客服马上在线沟通：</h4>
+                    <div class="">
+	                    <p> 售前QQ:</p>            
+	                    <ul id="zixunUl">
+	                        <li><a href="tencent://message/?uin=791374571&Site=英华方舟&Menu=Yes" target="_blank">791374571</a></li>
+	                        <li><a href="tencent://message/?uin=3589756067&Site=英华方舟&Menu=Yes" target="_blank">3589756067</a></li>
+	                        <li><a href="tencent://message/?uin=2909304676&Site=英华方舟&Menu=Yes" target="_blank">2909304676</a></li>
+	                        <div class="clearfix"></div>
+	                    </ul>
+	                </div>
+	                <div class="">
+	                    <p> 售后QQ:</p>            
+	                    <ul id="zixunUl">
+	                        <li><a href="tencent://message/?uin=3296375872&Site=英华方舟&Menu=Yes" target="_blank">3296375872</a></li>
+	                        <li><a href="tencent://message/?uin=2947590348&Site=英华方舟&Menu=Yes" target="_blank">2947590348</a></li>
+	                        <li><a href="tencent://message/?uin=2179899706&Site=英华方舟&Menu=Yes" target="_blank">2179899706</a></li>
+	                        <div class="clearfix"></div>
+	                    </ul>
+	                </div>
+                </div>
+                <span class="arrow-right"></span>
+            </div>
+        </div>
+    </div>
+	<div class="confirm-item  tel" role="showNemuInfo">
+		<i class="fa-icon  phone"></i>
+		<div class="tel-info">
+			<div class="info-box">
+				<div class="item">
+					<i class="fa-icon  tel "></i>0755-21008334
+				</div>
+				<div class="w-chart">
+					<img src="images/weixin.png" alt="Fusionzoom(方舟)官方公众号"  title="Fusionzoom(方舟)"/>
+					<p>您身边的跨境管家</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="confirm-item  chat">
+		<a href="http://p.qiao.baidu.com/cps/chat?siteId=11230802&userId=24364679" target="_blank">
+			<i class="fa-icon w-chart-icon"></i>
+			<small class="text">在线客服</small>
+		</a>
+	</div>
+	<span id="back-to-top"  title="Go go !" style="display: none;"></span>
+</div>
+<script type="text/javascript">
+	$('div[role="showNemuInfo"]').hover(function (){
+		$(this).find('.tel-info').stop().fadeIn();
+	}, function (){
+		$(this).find('.tel-info').stop().fadeOut();
+	});
+	var  aColor;
+	var  colors=new Array('fff','001CC9');
+	function  loadText(){
+		aColor=colors[Math.floor(Math.random()*colors.length)];
+		document.querySelector('.chat .text').style.color="#"+aColor;
+	}
+	setInterval('loadText()',500);
+/**回到顶部**/
+$(document).ready(function(){
+	var topObj=document.getElementById("back-to-top");
+	//获取页面可视区域的高度
+	var  clientHight=document.documentElement.clientHeight;
+	var timer=null;
+	var isTop=true;
+	window.onscroll=function(){
+		var osTop=document.documentElement.scrollTop || document.body.scrollTop;
+		if(osTop>=clientHight){
+			topObj.style.display="block";
+		}else{
+			topObj.style.display="none";
+		}
+		if(!isTop){
+			clearInterval(timer);
+		}
+		isTop =false;
+	}
+	topObj.onclick=function(){
+		timer=setInterval(function(){
+			var osTop=document.documentElement.scrollTop || document.body.scrollTop;
+			var ispeed=Math.floor(osTop /6);
+			document.documentElement.scrollTop = document.body.scrollTop =osTop+ispeed-73+'px';
+			isTop=true;
+			if(osTop==0){
+				clearInterval(timer);
+			}
+		},50);
+	}
+});
+</script>

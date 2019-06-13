@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1.0, user-scalable=no">
+		<title>亚马逊系统操作问题集锦</title>
+		<meta name="keywords" content="亚马逊账号关联问题,系统配置问题,盘点,订单包裹,CRM管理,在线商品,采购、调拨管理问题,noodle campus。"/> 
+		<meta name="description" content="Fusionzoom让销量再提升5%的跨境电商的ERP,可以通过服务页面了解到ERP的相关使用问题,例如绑定店铺、FBA库存相关、SKU编码、权限问题等。"/>
+		<link href="images/favicon.ico" rel="icon">
+		<meta name="baidu-site-verification" content="n1kpyK2q6t" />
+		<!-- Bootstrap CSS File -->
+		<link href="css/bootstrap.min.css"  rel="stylesheet"/>
+		<link href="css/animate.css" rel="stylesheet"/>
+		<link href="http://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+		
+		<!-- Main Stylesheet File -->
+		<link href="css/fusionzoom.css"  rel="stylesheet"/>
+		<link href="css/mobileStyle.css" rel="stylesheet" />
+		<!-- Facebook Pixel Code -->
+		<script>
+			!function(f,b,e,v,n,t,s)
+			{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+			if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+			n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t,s)}(window,document,'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+			 fbq('init', '2252152758377483'); 
+			fbq('track', 'Contact');
+			fbq('track', 'StartTrial', {value:'0.00', currency:'USD', predicted_ltv:'0.00'});
+		</script>
+		<noscript>
+		 	<img height="1" width="1"  src="https://www.facebook.com/tr?id=2252152758377483&ev=PageView&noscript=1"/>
+		</noscript>
+		<!-- End Facebook Pixel Code -->
+		
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	    
+	</head>
+	<body>
+	
+	<!--s  header -->
+	<header  id="header">
+		
+	</header>
+	<!--e  header -->
+	
+	<section style="background-color: #e9ecf3;padding-top: 100px;">
+		 <div class="container" >
+		 	 <div class="row">
+		 	 	<div class="col-md-3 col-lg-3  col-sm-12 col-xs-12">
+		 	 		<div class="row-control-l">
+      		  			<div class="item-title">
+      		  				系统操作常见问题
+      		  			</div>
+      		  			<div class="item-underline"> </div>
+      		  			<div class="li-underline"></div>
+      		  			<ul id="itemList">
+      		  				<li class="list-item  active"> 
+      		  					 账号关联问题
+      		  				</li>
+      		  				<li class="list-item"> 
+      		  					系统配置问题
+      		  				</li>
+      		  				<li class="list-item" > 
+      		  					 盘点相关问题
+      		  				</li>
+      		  				<li class="list-item"> 
+      		  					  商品相关问题
+      		  				</li>
+      		  				<li class="list-item" > 
+      		  					 订单、包裹相关问题
+      		  				</li>
+      		  				<li class="list-item"> 
+      		  					 采购、调拨相关问题
+      		  				</li>
+      		  				<li class="list-item">
+      		  					CRM相关问题
+      		  				</li>
+      		  				<li class="list-item"> 
+      		  					 报表相关问题
+      		  				</li>
+      		  				<li class="list-item"> 
+      		  					权限相关问题
+      		  				</li>
+      		  				<li class="list-item"> 
+      		  					在线商品问题
+      		  				</li>
+      		  			</ul>
+      		  	</div>
+		 	 </div>
+		 	<div class="col-md-9 col-lg-9  col-sm-12 col-xs-12">
+	          	<div class="row-control-r" style="display:;">
+          	  		<div class="row-control-content" >
+	          	  		<div class="r-item-title">
+	      		  			账号关联问题
+	      		  		</div>
+	      		  		<div class="item-underline"></div>
+      		  			<div class="body-content">
+      		  				<h3 class="h-title-control">绑定多账号会产生关联吗？</h3>
+      		  				<p>
+      		  					<span class="text-title">A、按照建议操作，不会。</span>
+      		  					<span class="text-info">
+      		  						电商平台开放了一个API端口给软件商，然后软件商有一个IP或者多个IP的服务器去抓取电商平台用户的数据，但是软件服务商抓取的数据有成千上万的平台用户，所以按照通常的逻辑，这成千上万的ID都是关联的，但是这种判断方式是不科学的。因此电商平台会排除掉这个因素，所以通过第三方软件的API数据交互，不构成关联。</span>
+      		  				</p>
+      		  				<p>
+      		  						<span  class="text-title">B、【建议】：在绑定平台账号的时候，原来帐号在哪一台机器上操作的，那么就在原来的机器上访问Fusionzoom ERP系统。</span>绑定授权之后，
+      		  						<span class="text-info">	随意在哪台电脑上操作系统中的订单、消息等都可以，因为是在ERP系统中进行的操作，不涉及到帐号后台！后期店铺更改密码等需要重新授权时，重复以上步骤！总之，只要涉及到授权，一定要作好防关联的准备！</span>
+      		  				</p>
+      		  			</div>
+	      		  		<div class="bottom-underline"></div>
+      		  		</div>
+	          	</div>
+          	 	<div class="row-control-r" style="display:none;">
+          	  		<div class="row-control-content">
+	          	  		<div class="r-item-title">
+	      		  			系统配置问题
+	      		  		</div>
+	      		  		<div class="item-underline"></div>
+      		  			<div class="body-content">
+      		  				<h3 class="h-title-control">为什么店铺需要设置执行系数？</h3>
+      		  				<p>
+      		  					<span class="text-info">
+      		  						设置执行系数主要是应对汇损的，系统中的汇率换算是根据执行汇率还换算的，执行汇率为标准汇率*执行系数。我们在实际收款时是存在汇损的，比如没100美金到手时候可能就是97美金，那么这里的执行系数就是0.97。
+      		  					</span>
+      		  				</p>
+      		  			</div>
+      		  			<div class="bottom-underline"></div>
+      		  		</div>
+          	  </div>
+          	  <div class="row-control-r" style="display:none;">
+          	  		<div class="row-control-content">
+	          	  		<div class="r-item-title">
+	      		  			盘点相关问题
+	      		  		</div>
+	      		  	    <div class="item-underline"></div>
+      		  			<div class="body-content">
+      		  				<h3 class="h-title-control">一：FBA库存盘点不准确？</h3>
+      		  				<p>
+      		  					<span class="text-title">FBA库存盘点需要注意：</span><br/>
+      		  					<span class="text-info">
+      		  						A.盘点之前，要在ERP系统中把在Amazon后台已经入库的调拨单签收入库。避免库存盘点后，调拨单影响盘点不准确。<br/>
+									B.在Amazon后台把入库完成之后的Amazon FBA可售库存以及Reserved的数量进行统计并导出，方便操作。<br/>
+									C.如果系统已经绑定店铺且有订单，那么需要您在订单管理中将FBA库存异常的订单对应的商品进行统计汇总（14天内的订单） 。 <br/>
+									 避免商品有库存后，缺货订单扣减库存，导致库存不准确。<br/>
+									D.盘点录入数量时，将FBA的实际库存与统计出来的FBA异常订单中的商品数量相加作为ERP中商品的数量录入到系统中。
+      		  					</span><br/>
+      		  					<span class="text-title">切记：第二到第四步请不要间隔太长时间，时间太长Amazon平台上订单扣减库存之后会导致第二步导出的可售库存不准。</span>
+      		  				</p>
+      		  			</div>
+      		  			<div class="bottom-underline"></div>
+	      		  			<div class="body-content">
+	      		  				<h3 class="h-title-control">二：盘点如何盘点库存编码为空的产品？</h3>
+	      		  				<p>
+	      		  					<span class="text-info">
+	      		  						如果商品使用的全球统一编码，则库存编码可以为空。对于这种类型的商品只需要仓库+SKU就能确定唯一性。盘点的时候选中仓库，通过SKU添加需要盘点的商品。其他盘点操作和有库存编码的一致。
+	      		  					</span>
+	      		  				</p>
+	      		  			</div>
+	      		  			<div class="bottom-underline"></div>
+	      		  			<div class="body-content">
+	      		  				<h3 class="h-title-control">三：盘点时为什么找不到商品？</h3>
+	      		  				<p>
+	      		  					<span class="text-info">
+	      		  						1、如果SKU在盘点仓库没有创库存商品则不存在，自然无法盘点。<br/>
+										2、如果在盘点仓库中该库存商品的状态为停产，则盘点添加商品页面不显示。
+	      		  					</span>
+	      		  				</p>
+	      		  			</div>
+	      		  			<div class="bottom-underline"></div>
+	      		  			<div class="body-content">
+	      		  				<h3 class="h-title-control">四：店铺如何设置FBA订单默认扣减仓且怎样保证库存准确？</h3>
+	      		  				<p>
+	      		  					<span class="text-info">
+	      		  						A.创建的仓库所在国家必须和店铺所在国家一致。<br/>
+										B.仓库类型必须是FBA类型。<br/>
+										C.确认好库存量充足且包含订单中的FBA异常订单的数量。<br/>
+										D.让异常的订单消失之后可以再次盘点库存，之后库存就会扣减正常了。
+	      		  					</span>
+	      		  				</p>
+	      		  			</div>
+	      		  			<div class="bottom-underline"></div>
+      		  			</div>
+          	  </div>
+          	  <div class="row-control-r" style="display:none;">
+          	  		<div class="row-control-content" >
+	          	  		<div class="r-item-title">
+	      		  					商品相关问题
+	      		  			</div>
+	      		  			<div class="item-underline"></div>
+	      		  			<div class="body-content">
+	      		  				<h3 class="h-title-control">一：如何快速录入基础数据？</h3>
+	      		  				<p>
+	      		  					<span class="text-info">
+	      		  						A.下载系统中的提供的SKU导入模版。<br/>
+													B.根据模版中字段要求填写信息，可以参考excel表格中的演示区以及说明区。<br/>
+													C.将excel文件导入系统。<br/>
+													D.如果有错误日志，则根据错误日志修改数据继续导入。	
+	      		  					</span>
+	      		  				</p>
+	      		  			</div>
+	      		  			<div class="bottom-underline"></div>
+	      		  			<div class="body-content">
+	      		  				 <h3 class="h-title-control">二：新增库存编码页面信息不全？</h3>
+												<p>
+													<span class="text-info">
+														A.如果创建SKU时没有选择首选供应商，且首选供应商没有填写供应商交期，则创建库存商品时供应商交期也不会自动带过来数据。<br/>
+														B.如果创建SKU时没有设置SKU为 统一采购仓，则创建库存商品时也不会显示默认调拨仓，默认调拨仓即为统一采购仓。<br/>
+														C.如果SKU设置了统一采购仓，但是不存在库存商品所在仓库的物流方式，也不能选择默认物流方式。必须物流方式目的地国家与仓库所在地一致才可选择物流方式。
+													</span>
+												</p>
+	      		  			</div>
+	      		  			<div class="bottom-underline"></div>
+	      		  			<div class="body-content">
+	      		  				<h3 class="h-title-control">三：采购单商品不显示商品价格？</h3>
+											<p>
+												<span class="text-info">
+													如果创建SKU或者库存编码时录入了商品价格，则在采购单添加商品时就会显示应商品的价格。反之则不显示。	
+												</span>
+											</p>
+	      		  			</div>
+	      		  			<div class="bottom-underline"></div>
+	      		  			<div class="body-content">
+	      		  				<h3 class="h-title-control">四：调拨单商品不显示装箱数量？</h3>
+											<p>
+												<span class="text-info">
+													如果创建SKU或者库存编码时填写了装箱数量，则在添加调拨单商品页面会显示装箱数量。反之则不显示。
+												</span>
+											</p>
+	      		  			</div>
+	      		  			<div class="bottom-underline"></div>
+	      		  			<div class="body-content">
+	      		  				<h3 class="h-title-control">五：如何填写不同箱标商品的装箱数量？</h3>
+											<p>
+												<span class="text-info">
+													建议您先确认一共实际装多少箱，然后通过调拨数量与装箱数量计算得出每箱装商品数量。
+												</span>
+											</p>
+	      		  			</div>
+	      		  			<div class="bottom-underline"></div>
+	      		  			<div class="body-content">
+	      		  				<h3 class="h-title-control">六：如何快速修改商品的相同字段属性？</h3>
+											<p>
+												<span class="text-info">
+													在SKU列表和库存列表中都可以通过相同值修改，把选中的商品信息的某些字段修改为相同值。
+												</span>
+											</p>
+	      		  			</div>
+	      		  			
+	      		  			<div class="bottom-underline"></div>
+	      		  			<div class="body-content">
+	      		  				<h3 class="h-title-control">七：如何快速修改商品的不同属相字段信息？</h3>
+											<p>
+												<span class="text-info">
+													在SKU列表和库存列表中都可以通过差异化修改，把选中的商品某些信息修改为不同值。
+												</span>
+											</p>
+	      		  			</div>
+	      		  			<div class="bottom-underline"></div>
+	      		  			<div class="body-content">
+	      		  				<h3 class="h-title-control">八：某个商品在仓库总有多个版本，需要对不同版本单独管理，如何设置？</h3>
+											<p>
+												<span class="text-info">
+													在库存列表中可以创建多个库存编码不同，SKU相同的商品。这样既能保证是同一个商品也能对不同的版本商品分别管理库存等信息。
+												</span>
+											</p>
+	      		  			</div>
+	      		  			<div class="bottom-underline"></div>
+	      		  			<div class="body-content">
+	      		  				<h3 class="h-title-control">九：一个商品在所有仓库的库存编码都为空如何导入系统？</h3>
+											<p>
+												<span class="text-info">
+													针对这种对同一个商品使用全球编码相同且为空的情况，您在创建导入模版时只需要把SKU和仓库填写正确就能确认该商品在仓库的唯一性。其他信息和处理有库存编码的商品一致。
+												</span>
+											</p>
+	      		  			</div>
+	      		  			<div class="bottom-underline"></div>
+	      		  			<div class="body-content">
+		      		  			<h3 class="h-title-control">十：亚马逊在线商品活动价格设置注意事项？</h3>
+											<p>
+												<span class="text-info">
+													活动价格设置时设置的时间是站点时间非本地时间，该活动价格包括开始时间不包括结束时间。
+												</span>
+											</p>
+	      		  			</div>
+	      		  			<div class="bottom-underline"></div>
+	      		  			<div class="body-content">
+	      		  				<h3 class="h-title-control">十一：Listing监控为什么看不到数据？</h3>
+											<p>
+												<span class="text-info">
+													Listing监控需要单独付费，如果费用到期默认不显示。可以根据需要选择购买一定数量的listing量。
+												</span>
+											</p>
+	      		  			</div>
+	      		  			<div class="bottom-underline"></div>
+	      		  			<div class="body-content">
+		      		  			<h3 class="h-title-control">十二：Listing监控页面中的正常ASIN什么意思？</h3>
+											<p>
+												<span class="text-info">
+													正常ASIN是指在listing监控页面没有任何预警的lisitng。比如评分预警（当系统计算评分比实际评分低预警） 、任务预警（设置的警戒配置没有完成任务预警） 。
+												</span>
+											</p>	
+	      		  			</div>
+	      		  			<div class="bottom-underline"></div>
+      		  			</div>
+          	  </div>
+          	  <div class="row-control-r" style="display:none">
+          	  		<div class="row-control-content">
+	          	  		<div class="r-item-title">
+	      		  					订单、包裹相关问题
+	      		  			</div>
+	      		  			<div class="item-underline"></div>
+	      		  			<div class="body-content">
+	      		  				<h3 class="h-title-control">一：订单匹配规则</h3>
+	      		  				<p>
+	      		  					<span class="text-title"> A、全球统一编码（所有仓库库存编码为空） 。</span> <br />
+	      		  					<span class="text-info">
+	      		  						这种模式下需要保证：<br/>
+										（1）SKU与销售SKU（亚马逊平台上的商品编码）必须相同。<br/>
+										（2）同一个商品在所有平台上的编码必须相同即同一个商品在平台上的销售SKU相同。<br/>
+									           （3）一个SKU可以支持一个仓库下库存编码为空一个仓库下库存编码不为空<br/>
+									           （4）不支持一个SKU在一个仓库下有多个版本存在的且都为空，除非两个库存编码都不为空。<br/>
+									           （5）店铺必须设置默认FBA仓库，FBA订单默认在店铺指定的FBA仓库扣减库存，如果FBA仓库一个SKU有多个编码商品 则扣减顺序为：维护、在售、清仓，如果状态相同则随机扣减。非FBA订单在系统中设置的默认仓库中扣减库存。<br/>
+									          （6）针对系统中设置的默认仓库，当默认仓库下一个SKU多个库存编码时可以设置哪个是默认扣减库存编码。
+	      		  					</span><br/>
+	      		  					<span class="text-title">B、全球编码不一样（仓库下库存编码不为空） 。</span><br/>
+	      		  					<span class="text-info">
+	      		  						这种模式下<br/>
+	      		  						（1）库存编码与销售SKU可以不一致。需要把销售SKU添加到对应的库存编码下。<br/>
+										（2）如果库存编码与销售SKU一致，则订单会自动扣减到对应的库存编码上的商品。
+	      		  					</span>
+	      		  				</p>
+      		  			</div>
+      		  			<div class="bottom-underline"></div>
+      		  			<div class="body-content">
+          	  			<h3 class="h-title-control">二：订单数量与平台不一致？</h3>
+										<p>
+											<span class="text-info">
+												A.Fusionzoom ERP每隔两个小时同步一次订单，如果平台上看到的订单系统中无法查到，请等待两个小时之后查看（最长两个小时） 。
+												B.Fusionzoom ERP中的订单是平台订单换算成服务器时间之后抓取下来的，Fusionzoom ERP只抓取订单状态是Unshipped状态的订单。  如果订单状态是未付款状态则不会抓取。
+											</span>
+										</p>
+          			  </div>
+          			  <div class="bottom-underline"></div>
+          			  <div class="body-content">
+          			  		<h3 class="h-title-control">三：商品不超重但提示订单超重？</h3>
+											<p>
+												<span class="text-info">
+													原因是在ERP系统中录入商品重量时，把商品重量录入的比实际重量大。建议：为了计算订单利润以及后期的报表计算，建议您填写商品信息时尽量填写实际数据。
+												</span>
+											</p>
+          			  </div>
+          			  <div class="bottom-underline"></div>
+          			  <div class="body-content">
+          			  	<h3 class="h-title-control">四：订单匹配异常？</h3>
+										<p>
+											<span class="text-info">
+												A. SKU、库存编码不要轻易删除。特别是有订单的商品，删除SKU、库存编码会导致订单无法匹配到商品，出现订单匹配异常。<br/>
+												B.匹配异常的订单（FBA、自营的）说明系统中没有创建相应的SKU，一定要创建好本地SKU、库存编码，否则匹配不到成本与销售额。<br/>
+												C.针对仓库的销售SKU一定要录入到库存编码下，销售SKU如果绑定到SKU也可能会出现订单匹配异常。<br/>
+												D.建议：先在系统中创建好SKU、库存SKU、销售SKU之后，再到Amazon平台上刊登商品。
+											</span>
+										</p>
+          			  </div>
+          			  <div class="bottom-underline"></div>
+          			  <div class="body-content">
+          			  	<h3 class="h-title-control">五：如何查询FBA异常订单？</h3>
+										<p>
+											<span class="text-info">
+												在订单列表中的异常状态那里，选择FBA库存异常或者FBA匹配异常。不勾选这两个条件将无法查询出FBA异常的订单。
+											</span>
+										</p>
+          			  </div>
+          			  <div class="bottom-underline"></div>
+          			  <div class="body-content">
+          			  	<h3 class="h-title-control">六：ERP中的订单没有退款信息？</h3>
+										<p>
+											<span class="text-info">
+												Fusionzoom ERP是通过API接口抓取亚马逊平台的交易费用的，由于亚马逊平台报告是每14天生成一次，所以最迟有14天的延时。另外由于亚马逊平台上生成的报告只能保存90天，所以超过90天的交易费用抓取不到。
+											</span>
+										</p>
+          			  </div>
+          			  <div class="bottom-underline"></div>
+          			  <div class="body-content">
+          			  	<h3 class="h-title-control">七：如何批量查看需要发货的商品？</h3>
+										<p>
+											<span class="text-info">
+												在包裹列表中，选中需要发货的包裹，点击“包裹配货”页面能显示出来包裹中需要的商品以及个数，方便仓库人员一次性将需要的货物在仓库中取出。
+											</span>
+										</p>
+          			  </div>
+          			  <div class="bottom-underline"></div>
+          			  <div class="body-content">
+          			  		<h3 class="h-title-control">八：为什么包裹打印的电子面单错位或者不清晰？</h3>
+											<p>
+												<span class="text-info">
+																首先在打印包裹之前选择打印规格的时候要选择与打印纸张规格一致的，防止出现打印的电子面单不全。如果在打印包裹的时候预览页面是正常的但是打印出来的电子面单不清晰或者错位，则需要调试下打印机。
+												</span>
+											</p>
+          			  </div>
+          			  <div class="bottom-underline"></div>
+          	  </div>
+          </div>
+		          <div class="row-control-r" style="display:none;" id="div6">
+		          	<div class="row-control-content">
+	          	  		<div class="r-item-title">
+	      		  					采购、调拨相关问题
+	      		  			</div>
+	      		  			<div class="item-underline"></div>
+	      		  			<div class="body-content">
+	      		  				<h3 class="h-title-control">采购、调拨单签收入库之后为什么库存量没有增加？</h3>
+	      		  				<p>
+	      		  					<span class="text-info">
+	      		  						点开采购单查看采购单的日志，如果只是进行了签收库存量是不会增加的，只有入库且实际入库量不为零库存量才会增加。
+	      		  					</span>
+	      		  				</p>
+	      		  			</div>
+	      		  			<div class="bottom-underline"></div>
+      		  		</div>
+		          </div>
+		          <div class="row-control-r" style="display:none;"  id="div7">
+		          	<div class="row-control-content">
+							<div class="r-item-title">
+	      		  					CRM相关问题
+	      		  			</div>
+	      		  			<div class="item-underline"></div>
+	      		  			<div class="body-content">
+	      		  				<h3 class="h-title-control">一：为什么能看到店铺订单却看不到该店铺的邮件？</h3>
+	      		  				<p>
+	      		  					<span class="text-info">
+	      		  						系统中订单模版权限设置与CRM站点邮件模块权限不一样，想要看到站点邮件需要在模块配置-邮件管理中设置为该店铺的回复客服或者客服主管。
+	      		  					</span>
+	      		  				</p>
+	      		  			</div>
+	      		  			<div class="bottom-underline"></div>
+	      		  			<div class="body-content">
+	      		  				<h3 class="h-title-control">二：如何使用邮件模版快速回复邮件？</h3>
+	      		  				<p>
+	      		  					<span class="text-info">
+	      		  						Fusionzoom ERP中回复邮件页面插入模版是累加而不是覆盖了，也就是你可以插入多个模版而不用担心新加入的模版覆盖掉前面的模版。您可以在邮件模版创建标准的回复模版，也可以创建各种常见问题回复模版，使用的之后只需要添加到邮件回复框中即可。
+	      		  					</span>
+	      		  				</p>
+	      		  			</div>
+	      		  			<div class="bottom-underline"></div>
+	      		  			<div class="body-content">
+	      		  				<h3 class="h-title-control">三：为什么在Amazon评价管理中看到的数据不完整？</h3>
+	      		  				<p>
+	      		  					<span class="text-info">
+	      		  						Amazon评价管理是结合着Fusionzoom Tools插件使用的，提前需要在Fusionzoom Tools插件中将各个站点的订单以及对应的buyerid数据爬取下来。之后系统会在Amazon评价管理中直接关联到对应的订单，并默认将差评显示处理。
+	      		  					</span>
+	      		  				</p>
+	      		  			</div>
+	      		  			<div class="bottom-underline"></div>
+      		  		</div>
+		          </div>
+		          <div class="row-control-r" style="display:none;" id="div8">
+		          	<div class="row-control-content">
+	          	  		<div class="r-item-title">
+	      		  					报表相关问题
+	      		  			</div>
+	      		  			<div class="item-underline"></div>
+	      		  			<div class="body-content">
+	      		  				<h3 class="h-title-control">销量报表数据和亚马逊后台不一致？</h3>
+	      		  				<p>
+	      		  					<span class="text-info">
+	      		  						因为ERP是根据服务器时间计算的，亚马逊是根基各个站点时间计算的。中间存在时差。另外就是存在订单拉取延时会导致报表数据存在一定误差。
+	      		  					</span>
+	      		  				</p>
+	      		  			</div>
+	      		  			<div class="bottom-underline"></div>
+      		  		</div>
+		          </div>
+		          <div class="row-control-r" style="display:none;" id="div9">
+		          	<div class="row-control-content">
+	          	  		<div class="r-item-title">
+	      		  					权限相关问题
+	      		  			</div>
+	      		  			<div class="item-underline"></div>
+	      		  			<div class="body-content">
+	      		  				<h3 class="h-title-control">一：创建调拨单时无法选择仓库？</h3>
+	      		  				<p>
+	      		  					<span class="text-info">
+	      		  						因为您仅仅分配了调拨模块的权限，想要创建调拨单也需要仓库权限。在系统配置-仓库权限管理中分配相应的仓库权限即可。
+	      		  					</span>
+	      		  				</p>
+	      		  			</div>
+	      		  			<div class="bottom-underline"></div>
+	      		  			<div class="body-content">
+	      		  				<h3 class="h-title-control">二：无法查看订单数据？</h3>
+	      		  				<p>
+	      		  					<span class="text-info">
+	      		  						要看到订单数据不仅仅需要订单模块权限还需要分配相应的店铺权限，只有拥有相应的店铺权限您才能看到指定店铺的订单。在系统配置-店铺权限管理中分配相应的店铺权限即可。
+	      		  					</span>
+	      		  				</p>
+	      		  			</div>
+	      		  			<div class="bottom-underline"></div>
+      		  		</div>
+		          </div>
+		          <div class="row-control-r" style="display:none;"  id="div10">
+		          	<div class="row-control-content">
+	          	  		<div class="r-item-title">
+	      		  					在线商品问题
+	      		  			</div>
+	      		  			<div class="item-underline"></div>
+	      		  			<div class="body-content">
+	      		  				<h3 class="h-title-control">如何在亚马逊后台修改sellersku且不会影响现有评价评分？</h3>
+	      		  				<p>
+	      		  					<span class="text-info">
+	      		  						如果商品在亚马逊上共用的是一个ASIN码，在亚马逊后台修改其中一个sellerSKU 就不会影响商品的评分，亚马逊只认商品的asin码。
+	      		  					</span>
+	      		  				</p>
+	      		  			</div>
+	      		  			<div class="bottom-underline"></div>
+      		  		</div>
+		          </div>
+        </div>
+		 	 </div>
+		 </div>
+	</section>
+	
+	<!--s  footer -->
+	<footer id="footer">
+		
+	</footer>
+	<!--e  footer -->
+	
+	<!--s copyright -->
+	<section>
+		<div class="section-copyright">
+			<div class="container"> 
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+						<p>
+							© 2014-<script>document.write( new Date().getFullYear() );</script> 深圳市英华方舟科技有限公司<a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备16039412号-1</a>
+						</p>
+						<p>
+							<img src="images/beian-icon.png"  alt="备案图"/>
+							<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030902000061">粤公网安备 44030902000061号</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--e copyright -->
+	
+	
+	<!--s 在线咨询-->
+	<div id="fixed-menu">
+		
+	</div>
+	<!--e 在线咨询-->
+	
+	<!-- JavaScript Libraries -->
+	<script src="js/lib/jquery/jquery.min.js"></script>
+	<script src="js/lib/bootstrap/bootstrap.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.countup.min.js"></script>
+	<script src="js/lib/logo-roll.js"></script>
+	<script src="js/common.js" ></script>
+	<script>
+		$(function(){
+			$("#footer").load(securityContext+"/footer.html");
+			$("#fixed-menu").load(securityContext+"/consultframe.html");
+		});
+	</script>
+	</body>
+</html>

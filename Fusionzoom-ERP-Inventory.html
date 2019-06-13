@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1.0, user-scalable=no">
+		<title>跨境电商海外仓库存管理ERP系统</title>
+		<meta name="keywords" content="库存管理,库存缺货,库存周转,头程监控,调拨需求,调拨监控,告别excel管理库存,系统管理库存,海外仓管理,noodle campus" />
+		<meta name="description" content="Fusionzoom库存管理系统有效帮助amazon/ebay/wish/速卖通卖家管理多海外仓库存之间的库存调拨,库存周转,库存发货,避免漏发、错发、重发补发现象,避免库存积压,提高库存周转,提高现金流的利用。" />
+		<meta name="baidu-site-verification" content="n1kpyK2q6t" />
+		<link href="images/favicon.ico" rel="icon">
+
+		<!-- Bootstrap CSS File -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="css/animate.css" rel="stylesheet" />
+		<link href="http://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+		<!-- Main Stylesheet File -->
+		<link href="css/fusionzoom.css" rel="stylesheet" />
+		<link href="css/common.css" rel="stylesheet" />
+		<link href="css/mobileStyle.css" rel="stylesheet" />
+
+		<!-- Facebook Pixel Code -->
+		<script>
+			! function(f, b, e, v, n, t, s) {
+				if(f.fbq) return;
+				n = f.fbq = function() {
+					n.callMethod ?
+						n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+				};
+				if(!f._fbq) f._fbq = n;
+				n.push = n;
+				n.loaded = !0;
+				n.version = '2.0';
+				n.queue = [];
+				t = b.createElement(e);
+				t.async = !0;
+				t.src = v;
+				s = b.getElementsByTagName(e)[0];
+				s.parentNode.insertBefore(t, s)
+			}(window, document, 'script',
+				'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '2252152758377483');
+			fbq('track', 'Contact');
+			fbq('track', 'StartTrial', {
+				value: '0.00',
+				currency: 'USD',
+				predicted_ltv: '0.00'
+			});
+		</script>
+		<noscript>
+		 	<img height="1" width="1"  src="https://www.facebook.com/tr?id=2252152758377483&ev=PageView&noscript=1"/>
+		</noscript>
+		<!-- End Facebook Pixel Code -->
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+	      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+
+	<body>
+		<!--s  header -->
+		<header id="header">
+
+		</header>
+		<!--e  header -->
+
+		<!--s 功能模块详情-->
+		<section id="section-slider-header">
+			<div class="slider-wrapper">
+				<div class="container">
+					<div id="wrapper">
+						<div id="scroller">
+							<ul class="lists">
+								<li>
+									<a href="Fusionzoom-ERP-Flexibility.html" title="多渠道">
+										<i class="fore0"></i>
+										<span class="">多渠道</span>
+									</a>
+								</li>
+								<li>
+									<a href="Fusionzoom-ERP-Barcode.html" title="全功能条码">
+										<i class="fore1"></i>
+										<span class="">全功能条码</span>
+									</a>
+								</li>
+								<li>
+									<a href="Fusionzoom-ERP-Order.html" title="订单管理">
+										<i class="fore2"></i>
+										<span class="">订单管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="logisticsTracking.html" title="物流追踪">
+										<i class="fore3"></i>
+										<span class="">物流追踪</span>
+									</a>
+								</li>
+								<li>
+									<a href="invoiceManagement.html" title="invoice管理">
+										<i class="fore4"></i>
+										<span class="">invoice管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="Fusionzoom-ERP-Warehousing.html" title="商品管理">
+										<i class="fore5"></i>
+										<span class="">商品管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="listingMonitor.html" title="listing监控">
+										<i class="fore6"></i>
+										<span class="">listing监控</span>
+									</a>
+								</li>
+							</ul>
+							<ul class="lists">
+								<li>
+									<a class="active" href="Fusionzoom-ERP-Inventory.html" title="库存管理">
+										<i class="fore7"></i>
+										<span class="">库存管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="demandManagement.html" title="需求管理">
+										<i class="fore8"></i>
+										<span class="">需求管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="Fusionzoom-ERP-Purchase.html" title="采购管理">
+										<i class="fore9"></i>
+										<span class="">采购管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="headerTransfer.html" title="头程调拨">
+										<i class="fore10"></i>
+										<span class="">头程调拨</span>
+									</a>
+								</li>
+								<li>
+									<a href="Fusionzoom-ERP-Reports.html" title="数据报表">
+										<i class="fore11"></i>
+										<span class="">数据报表</span>
+									</a>
+								</li>
+								<li>
+									<a href="crmIntroduce.html" title="CRM管理">
+										<i class="fore12"></i>
+										<span class="">CRM管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="Fusionzoom-ERP-Permissions.html" title="权限管理">
+										<i class="fore13"></i>
+										<span class="">权限管理</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--e 功能模块详情-->
+
+		<div id="slider-pic-area" class="slider-focus">
+			<div class="slider-focus-inner">
+				<div class="slider-item">
+					<div class="sliderbanner5">
+						<div class="container text-center">
+							<div class="slider-box">
+								<h1>复杂的库存管理模式下，仍然实现精确的管控</h1>
+								<p>商品永远放在正确的仓位上，精确的库存帮助您决策出最好的价格</p>
+								<a href="http://erp.fusionzoom.cn/registerNew?code=website" target="_blank" class="border-white-btn">免费试用</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--s 详情-->
+		<section>
+			<!--S 库存管理-->
+			<div class="superior-wrapper mobile-control">
+				<div class="bg-white">
+					<div class="container">
+						<div class="blend_100">
+							<div class="row mobile-list">
+								<div class="col-md-8 padding-t50" item-img="right">
+									<h1>中心式库存可视化管控</h1>
+									<div class="blue-line-40"></div>
+									<p>Fusionzoom 将您的所有电子商务平台的市场、运输、FBA和仓储解决方案无缝连接到一个平台。</p>
+									<p>轻松查看、管理和调节自有仓库、第三方仓库（3PW）和各大店铺的库存。全局显示已有的、在途的产品信息，Fusionzoom 让您有能力重新安排调拨和调整库存。</p>
+								</div>
+								<div class="col-md-4" item-img="left">
+									<a href="javascript:;">
+										<img src="images/platformImg/stock1.jpg" alt="中心式库存可视化管控" />
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="bg-line"></div>
+					</div>
+				</div>
+				<div class="bg-white">
+					<div class="container">
+						<div class="blend_100">
+							<div class="row mobile-list">
+								<div class="col-md-4" item-img="left">
+									<a href="javascript:;">
+										<img src="images/platformImg/stock2.jpg" alt="创建变体商品" />
+									</a>
+								</div>
+								<div class="col-md-8 padding-t50" item-img="right">
+									<h1>创建变体商品</h1>
+									<div class="blue-line-40"></div>
+									<p>Fusionzoom(方舟) ERP 允许您拥有一个完全定制的变体树，通过使用Fusionzoom SKU 体系：</p>
+									<p>SPU，SKU，库存SKU和销售SKU，是创建和管理变体产品的最简单方法。</p>
+								</div>
+							</div>
+						</div>
+						<div class="bg-line"></div>
+					</div>
+				</div>
+				<div class="bg-white">
+					<div class="container">
+						<div class="blend_100">
+							<div class="row mobile-list">
+								<div class="col-md-8 padding-t50" item-img="right">
+									<h1>调拨智能建议</h1>
+									<div class="blue-line-40"></div>
+									<p>利用所有站点的最低库存水平以及针对每个产品的一系列标准重新排序值，Fusionzoom(方舟) ERP将推荐哪些产品线需要调拨。使用自动采购功能，您不需要担心超售或价格过低，因为所有频道都会更新。</p>
+								</div>
+								<div class="col-md-4" item-img="left">
+									<a href="javascript:;">
+										<img src="images/platformImg/stock3.jpg" alt="调拨智能建议" />
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="bg-line"></div>
+					</div>
+				</div>
+				<div class="bg-white">
+					<div class="container">
+						<div class="blend_100">
+							<div class="row mobile-list">
+								<div class="col-md-4" item-img="left">
+									<a href="javascript:;">
+										<img src="images/platformImg/stock4.jpg" alt="精确、实时的 FBA 库存管控" />
+									</a>
+								</div>
+								<div class="col-md-8 padding-t50" item-img="right">
+									<h1>精确、实时的 FBA 库存管控</h1>
+									<div class="blue-line-40"></div>
+									<p>通过集中查看FBA库存数量，您可以始终跟踪 FBA库存。借助“智能调拨建议”功能，您可以轻松地创建，转移和跟踪从仓库到FBA仓库的调拨计划。</p>
+								</div>
+							</div>
+						</div>
+						<div class="bg-line"></div>
+					</div>
+				</div>
+				<div class="bg-white">
+					<div class="container">
+						<div class="blend_100">
+							<div class="row mobile-list">
+								<div class="col-md-8 padding-t50" item-img="right">
+									<h1>无缝的 FBA 支持</h1>
+									<div class="blue-line-40"></div>
+									<p>The Fusionzoom FBA 集成提供惊人的多样性功能。 将您的频道设置为由亚马逊自动，实现自动化，或手动选择借助FBA设施执行的订单。</p>
+								</div>
+								<div class="col-md-4" item-img="left">
+									<a href="javascript:;">
+										<img src="images/platformImg/stock5.jpg" alt="无缝的 FBA 支持" />
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="bg-line"></div>
+					</div>
+				</div>
+				<div class="bg-white">
+					<div class="container">
+						<div class="blend_100">
+							<div class="row mobile-list">
+								<div class="col-md-4" item-img="left">
+									<a href="javascript:;">
+										<img src="images/platformImg/stock6.jpg" alt="低库存预警" />
+									</a>
+								</div>
+								<div class="col-md-8 padding-t50" item-img="right">
+									<h1>低库存预警</h1>
+									<div class="blue-line-40"></div>
+									<p>Fusionzoom(方舟) ERP 允许为不同仓库中的每个库存商品设置低库存阈值，并在库存达到此级别时自动提醒。让您永远不会陷入低库存窘境。</p>
+								</div>
+							</div>
+						</div>
+						<div class="bg-line"></div>
+					</div>
+				</div>
+				<div class="bg-white">
+					<div class="container">
+						<div class="blend_100">
+							<div class="row mobile-list">
+								<div class="col-md-8 padding-t50" item-img="right">
+									<h1>定价大师</h1>
+									<div class="blue-line-40"></div>
+									<p>Fusionzoom(方舟) ERP 将自动计算不同仓库的到岸成本，使您更容易为多渠道市场设置不同的价格。</p>
+								</div>
+								<div class="col-md-4" item-img="left">
+									<a href="javascript:;">
+										<img src="images/platformImg/stock7.jpg" alt="定价大师" />
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="bg-line"></div>
+					</div>
+				</div>
+				<div class="bg-white">
+					<div class="container">
+						<div class="blend_100">
+							<div class="row mobile-list">
+								<div class="col-md-4" item-img="left">
+									<a href="javascript:;">
+										<img src="images/platformImg/stock8.jpg" alt="抑制库存过剩" />
+									</a>
+								</div>
+								<div class="col-md-8 padding-t50" item-img="right">
+									<h1>抑制库存过剩</h1>
+									<div class="blue-line-40"></div>
+									<p>最大限度地提高销售机会，同时通过在您的零售和多渠道市场拥有适当的库存量，避免昂贵的缺货和库存过剩。通过全面可操作的销售预测报告，减少库存金额，并可靠地预测未来的需求。</p>
+								</div>
+							</div>
+						</div>
+						<div class="bg-line"></div>
+					</div>
+				</div>
+				<div class="bg-white">
+					<div class="container">
+						<div class="blend_100">
+							<div class="row mobile-list">
+								<div class="col-md-8 padding-t50" item-img="right">
+									<h1>供应商评估</h1>
+									<div class="blue-line-40"></div>
+									<p>Fusionzoom(方舟) ERP 用户可以使用供应商记分卡来评估每个供应商的绩效，包括产品成本，采购订单交付时间，产品质量得分（CRM）。 以选择最佳供应商以改善未来的采购决策。</p>
+								</div>
+								<div class="col-md-4" item-img="left">
+									<a href="javascript:;">
+										<img src="images/platformImg/stock9.jpg" alt="供应商评估" />
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="bg-line"></div>
+					</div>
+				</div>
+				<div class="bg-white">
+					<div class="container">
+						<div class="blend_100">
+							<div class="row mobile-list">
+								<div class="col-md-4" item-img="left">
+									<a href="javascript:;">
+										<img src="images/platformImg/stock10.jpg" alt="盘点" />
+									</a>
+								</div>
+								<div class="col-md-8 padding-t50" item-img="right">
+									<h1>盘点</h1>
+									<div class="blue-line-40"></div>
+									<p>使用 Fusionzoom(方舟) ERP 的盘点功能，您可以计划和执行您的库存的盘点操作（手动或使用条形码扫描仪），并在影响库存之前单独设置库存数。</p>
+								</div>
+							</div>
+						</div>
+						<div class="bg-line"></div>
+					</div>
+				</div>
+				<div class="bg-white">
+					<div class="container">
+						<div class="text-center" style="margin: 30px 0;">
+							<a href="http://erp.fusionzoom.cn/registerNew?code=website" target="_blank" class="border-blue-btn">免费试用</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--e 库存管理-->
+		</section>
+		<!--e 详情-->
+
+		<!--s  footer -->
+		<footer id="footer">
+
+		</footer>
+		<!--e  footer -->
+
+		<!--s copyright -->
+		<section>
+			<div class="section-copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+							<p>
+								© 2014-
+								<script>
+									document.write(new Date().getFullYear());
+								</script> 深圳市英华方舟科技有限公司
+								<a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备16039412号-1</a>
+							</p>
+							<p>
+								<img src="images/beian-icon.png" alt="备案图" />
+								<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030902000061">粤公网安备 44030902000061号</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--e copyright -->
+
+		<!--s 在线咨询-->
+		<div id="fixed-menu"></div>
+		<!--e 在线咨询-->
+
+		<!-- JavaScript Libraries -->
+		<script src="js/lib/jquery/jquery.min.js"></script>
+		<script src="js/lib/bootstrap/bootstrap.min.js"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script src="js/jquery.countup.min.js"></script>
+		<script src="js/lib/logo-roll.js"></script>
+		<script src="js/common.js"></script>
+		<script src="js/iscroll.js"></script>
+		<script>
+			$(function() {
+				var myScroll = new IScroll('#wrapper', {
+					scrollX: true,
+					scrollY: false,
+				});
+				$("#footer").load("footer.html");
+				$("#fixed-menu").load(securityContext + "/consultframe.html");
+			});
+		</script>
+	</body>
+
+</html>

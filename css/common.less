@@ -1,0 +1,61 @@
+@bgcolorLightGrey:#f7fbff;
+@bgcolorWhite:#FFFFFF;
+
+*{
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+}
+section{
+    margin:0;
+    padding:0;
+}
+
+.white-bgc{
+    background-color:@bgcolorWhite ;
+}
+
+.light-grey-bgc{
+    background-color: @bgcolorLightGrey;
+}
+.banner{
+    min-height: 500px;
+}
+
+.banner.edmBg{
+    background: url(../images/bg/edm-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+.banner.sourceCodeBg{
+    background: url(../images/bg/sourceCodeBg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.wrap-box{
+    padding: 120px  30px 135px;
+    color: #fff;
+    h1,h3,p{
+       text-shadow: 0px 2px 3px 0px  rgba(0, 0, 0, 0.15); 
+    }
+    h1{
+        font: 60px/60px "MicrosoftYaHei-Bold";
+        margin-bottom: 12px;
+    }
+    h3{
+        font: 34px/34px " MicrosoftYaHei";
+        margin-bottom: 29px;
+    }
+    .line{
+        width: 113px;
+        height: 6px;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
+    }
+    p{
+        font: 22px/32px " MicrosoftYaHei";
+        margin-bottom: 30px;
+    }
+}

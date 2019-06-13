@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1.0, user-scalable=no">
+		<title>Fusionzoom(方舟)erp条码功能,简化您的出库入库和盘点</title>
+		<meta name="keywords" content="Fusionzoom(方舟)ERP条码功能,条形码,条形码工具,noodle campus" />
+		<meta name="description" content="还在关注忘记条码,打错条码的问题吗？fusionzoom erp允许用户在发送前用条形码打印包裹标签并扫描条形码; 从源头识别拣货错误,简化工作流程,是仓库管理更加高效,并且没有错误。" />
+		<meta name="baidu-site-verification" content="n1kpyK2q6t" />
+		<link href="images/favicon.ico" rel="icon">
+
+		<!-- Bootstrap CSS File -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="css/animate.css" rel="stylesheet" />
+		<link href="http://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+		<!-- Main Stylesheet File -->
+		<link href="css/fusionzoom.css" rel="stylesheet" />
+		<link href="css/common.css" rel="stylesheet" />
+		<link href="css/mobileStyle.css" rel="stylesheet" />
+
+		<!-- Facebook Pixel Code -->
+		<script>
+			! function(f, b, e, v, n, t, s) {
+				if(f.fbq) return;
+				n = f.fbq = function() {
+					n.callMethod ?
+						n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+				};
+				if(!f._fbq) f._fbq = n;
+				n.push = n;
+				n.loaded = !0;
+				n.version = '2.0';
+				n.queue = [];
+				t = b.createElement(e);
+				t.async = !0;
+				t.src = v;
+				s = b.getElementsByTagName(e)[0];
+				s.parentNode.insertBefore(t, s)
+			}(window, document, 'script',
+				'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '2252152758377483');
+			fbq('track', 'Contact');
+			fbq('track', 'StartTrial', {
+				value: '0.00',
+				currency: 'USD',
+				predicted_ltv: '0.00'
+			});
+		</script>
+		<noscript>
+		 	<img height="1" width="1"  src="https://www.facebook.com/tr?id=2252152758377483&ev=PageView&noscript=1"/>
+		</noscript>
+		<!-- End Facebook Pixel Code -->
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+	      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+
+	<body>
+		<!--s  header -->
+		<header id="header">
+
+		</header>
+		<!--e  header -->
+
+		<!--s 功能模块详情-->
+		<section id="section-slider-header">
+			<div class="slider-wrapper">
+				<div class="container">
+					<div id="wrapper">
+						<div id="scroller">
+							<ul class="lists">
+								<li>
+									<a href="Fusionzoom-ERP-Flexibility.html" title="多渠道">
+										<i class="fore0"></i>
+										<span class="">多渠道</span>
+									</a>
+								</li>
+								<li>
+									<a class="active" href="Fusionzoom-ERP-Barcode.html" title="全功能条码">
+										<i class="fore1"></i>
+										<span class="">全功能条码</span>
+									</a>
+								</li>
+								<li>
+									<a href="Fusionzoom-ERP-Order.html" title="订单管理">
+										<i class="fore2"></i>
+										<span class="">订单管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="logisticsTracking.html" title="物流追踪">
+										<i class="fore3"></i>
+										<span class="">物流追踪</span>
+									</a>
+								</li>
+								<li>
+									<a href="invoiceManagement.html" title="invoice管理">
+										<i class="fore4"></i>
+										<span class="">invoice管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="Fusionzoom-ERP-Warehousing.html" title="商品管理">
+										<i class="fore5"></i>
+										<span class="">商品管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="listingMonitor.html" title="listing监控">
+										<i class="fore6"></i>
+										<span class="">listing监控</span>
+									</a>
+								</li>
+							</ul>
+							<ul class="lists">
+								<li>
+									<a href="Fusionzoom-ERP-Inventory.html" title="库存管理">
+										<i class="fore7"></i>
+										<span class="">库存管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="demandManagement.html" title="需求管理">
+										<i class="fore8"></i>
+										<span class="">需求管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="Fusionzoom-ERP-Purchase.html" title="采购管理">
+										<i class="fore9"></i>
+										<span class="">采购管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="headerTransfer.html" title="头程调拨">
+										<i class="fore10"></i>
+										<span class="">头程调拨</span>
+									</a>
+								</li>
+								<li>
+									<a href="Fusionzoom-ERP-Reports.html" title="数据报表">
+										<i class="fore11"></i>
+										<span class="">数据报表</span>
+									</a>
+								</li>
+								<li>
+									<a href="crmIntroduce.html" title="CRM管理">
+										<i class="fore12"></i>
+										<span class="">CRM管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="Fusionzoom-ERP-Permissions.html" title="权限管理">
+										<i class="fore13"></i>
+										<span class="">权限管理</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--e 功能模块详情-->
+
+		<div id="slider-pic-area" class="slider-focus">
+			<div class="slider-focus-inner">
+				<div class="slider-item">
+					<div class="sliderbanner2">
+						<div class="container text-center">
+							<div class="slider-box">
+								<h1>简化工作流程，使用条形码盘点库存量</h1>
+								<p>保持工作高效，并且没有错误</p>
+								<a href="http://erp.fusionzoom.cn/registerNew?code=website" target="_blank" class="border-white-btn">免费试用</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--s 详情-->
+		<section>
+			<!--s 全功能条码-->
+			<div class="superior-wrapper mobile-control">
+				<div class="bg-white">
+					<div class="container">
+						<div class="blend_100">
+							<div class="row  mobile-list">
+								<div class="col-md-8 padding-t50" item-img="right">
+									<h1>简化您的仓库</h1>
+									<div class="blue-line-40"></div>
+									<p>Fusionzoom(方舟) ERP 提供条码功能，以实现自动化拣选，包装，出库和入库。 该应用程序（即将推出）与 Fusionzoom 的库存功能完全集成，为 Android 和 iOS 设备开发。</p>
+									<ul class="li-disc li-text-set">
+										<li>仓库无纸化</li>
+										<li>大幅度降低拣货失误</li>
+										<li>通过提供库存位置来节省定位产品的时间</li>
+										<li>比传统扫描仪更经济</li>
+										<li>使用方便，界面直观</li>
+									</ul>
+								</div>
+								<div class="col-md-4" item-img="left">
+									<a href="javascript:;">
+										<img src="images/platformImg/barcode1.jpg" alt="简化您的仓库" />
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="bg-line"></div>
+					</div>
+				</div>
+				<div class="bg-white">
+					<div class="container">
+						<div class="blend_100">
+							<div class="row mobile-list">
+								<div class="col-md-4" item-img="left">
+									<a href="javascript:;">
+										<img src="images/platformImg/barcode2.jpg" alt="库存查询" />
+									</a>
+								</div>
+								<div class="col-md-8 padding-t50" item-img="right">
+									<h1>库存查询</h1>
+									<div class="blue-line-40"></div>
+									<p>Fusionzoom(方舟) ERP 方便用户快速扫描和查找库存商品。检索信息：产品在库存和补货、在其他地方可用，准备被拣选的商品、已经被拣选的商品、商品的描述，类别，定价和照片。</p>
+								</div>
+							</div>
+						</div>
+						<div class="bg-line"></div>
+					</div>
+				</div>
+				<div class="bg-white">
+					<div class="container">
+						<div class="blend_100">
+							<div class="row mobile-list">
+								<div class="col-md-8 padding-t50" item-img="right">
+									<h1>积压订单管理和库存分配</h1>
+									<div class="blue-line-40"></div>
+									<p>更高效的拣选：移动条码扫描允许您从源头识别拣货错误，从而消除在包装时查找和更正错误所花费的时间。</p>
+								</div>
+								<div class="col-md-4" item-img="left">
+									<a href="javascript:;">
+										<img src="images/platformImg/barcode3.jpg" alt="积压订单管理和库存分配" />
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="bg-line"></div>
+					</div>
+				</div>
+				<div class="bg-white">
+					<div class="container">
+						<div class="blend_100">
+							<div class="row mobile-list">
+								<div class="col-md-4" item-img="left">
+									<a href="javascript:;">
+										<img src="images/platformImg/barcode4.jpg" alt="包裹扫描和交运" />
+									</a>
+								</div>
+								<div class="col-md-8 padding-t50" item-img="right">
+									<h1>包裹扫描和交运</h1>
+									<div class="blue-line-40"></div>
+									<p>Fusionzoom(方舟) ERP 允许用户在发送前用条形码打印包裹标签并扫描条形码; 它将很容易避免或纠正错误，如发送包裹两次，忘记发送包裹等低级错误。</p>
+								</div>
+							</div>
+						</div>
+						<div class="bg-line"></div>
+					</div>
+				</div>
+				<div class="bg-white">
+					<div class="container">
+						<div class="blend_100">
+							<div class="row mobile-list">
+								<div class="col-md-8 padding-t50" item-img="right">
+									<h1>收货扫描</h1>
+									<div class="blue-line-40"></div>
+									<p>Fusionzoom(方舟) ERP 的收货扫描功能，允许用户在接收批量货物时，扫描包裹或物品，以便在到达时立即识别和记录产品。 它记录接收的物品，然后记录产品被分配到的箱子和货架的编号。</p>
+								</div>
+								<div class="col-md-4" item-img="left">
+									<a href="javascript:;">
+										<img src="images/platformImg/barcode5.jpg" alt="收货扫描" />
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="bg-line"></div>
+					</div>
+				</div>
+				<div class="bg-white">
+					<div class="container">
+						<div class="blend_100">
+							<div class="row mobile-list">
+								<div class="col-md-4" item-img="left">
+									<a href="javascript:;">
+										<img src="images/platformImg/barcode6.jpg" alt="发货扫描" />
+									</a>
+								</div>
+								<div class="col-md-8 padding-t50" item-img="right">
+									<h1>发货扫描</h1>
+									<div class="blue-line-40"></div>
+									<p>Fusionzoom(方舟) ERP 可以扫描所有批量出库商品，以便记录已从仓库分派的一个或多个纸箱，然后记录该产品分配到的箱号和货架编号。</p>
+								</div>
+							</div>
+						</div>
+						<div class="bg-line"></div>
+					</div>
+				</div>
+				<div class="bg-white">
+					<div class="container">
+						<div class="blend_100">
+							<div class="row mobile-list">
+								<div class="col-md-8 padding-t50" item-img="right">
+									<h1>盘点</h1>
+									<div class="blue-line-40"></div>
+									<p>使用 Fusionzoom(方舟) ERP 的基于条形码的盘点功能，您可以规划和执行您的库存盘点，实现走查计数（手动或用条形码扫描仪），并在影响库存之前单独设置和批准库存量。你永远不会重复计数或错过点数。</p>
+								</div>
+								<div class="col-md-4" item-img="left">
+									<a href="javascript:;">
+										<img src="images/platformImg/barcode7.jpg" alt="盘点" />
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="bg-line"></div>
+					</div>
+				</div>
+				<div class="bg-white">
+					<div class="container">
+						<div class="text-center" style="margin: 30px 0;">
+							<a href="http://erp.fusionzoom.cn/registerNew?code=website" target="_blank" class="border-blue-btn">免费试用</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--e 全功能条码-->
+		</section>
+		<!--e 详情-->
+
+		<!--s  footer -->
+		<footer id="footer">
+
+		</footer>
+		<!--e  footer -->
+
+		<!--s copyright -->
+		<section>
+			<div class="section-copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+							<p>
+								© 2014-
+								<script>
+									document.write(new Date().getFullYear());
+								</script> 深圳市英华方舟科技有限公司
+								<a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备16039412号-1</a>
+							</p>
+							<p>
+								<img src="images/beian-icon.png" alt="备案图" />
+								<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030902000061">粤公网安备 44030902000061号</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--e copyright -->
+
+		<!--s 在线咨询-->
+		<div id="fixed-menu"></div>
+		<!--e 在线咨询-->
+
+		<!-- JavaScript Libraries -->
+		<script src="js/lib/jquery/jquery.min.js"></script>
+		<script src="js/lib/bootstrap/bootstrap.min.js"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script src="js/jquery.countup.min.js"></script>
+		<script src="js/lib/logo-roll.js"></script>
+		<script src="js/common.js"></script>
+		<script src="js/iscroll.js"></script>
+		<script>
+			$(function() {
+				var myScroll = new IScroll('#wrapper', {
+					scrollX: true,
+					scrollY: false,
+				});
+				$("#footer").load("footer.html");
+				$("#fixed-menu").load(securityContext + "/consultframe.html");
+			});
+		</script>
+	</body>
+
+</html>
